@@ -1,0 +1,12 @@
+pocket_option:
+  token: "AKkBM7jXxdzaFsyj5"
+
+telegram:
+  token: "7475784679:AAFK9Y183wxB_5YriDvkflYzveNwZRAt9vE"
+  channel_id: "@riantradingbot"
+
+alpha_vantage:
+  key: "D8MPHLSSGOAGV171"
+
+newsapi:
+  key: "57376368a4a744318a104c5cde8a62f8"

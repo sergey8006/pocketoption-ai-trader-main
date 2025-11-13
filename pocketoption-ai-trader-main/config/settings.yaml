@@ -1,0 +1,24 @@
+trading:
+  pairs: 
+    - USD/ZAR
+    - AUD/CAD
+    - AUD/USD
+    - USD/TRY
+    - EUR/TRY
+    - GBP/ZAR
+  timeframe: 1m
+  base_amount: 25
+  max_daily_loss: 5%
+  payout_threshold: 92%
+
+signals:
+  min_confidence: 0.85
+  max_trades_per_hour: 10
+  volume_multiplier: 1.8
+  rsi_threshold: 30
+
+telegram:
+  alert_levels:
+    - BREAKOUT
+    - STRONG
+  report_time: "23:00"
