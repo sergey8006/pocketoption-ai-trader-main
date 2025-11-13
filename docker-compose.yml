@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  trading-bot:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./config:/app/config
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
